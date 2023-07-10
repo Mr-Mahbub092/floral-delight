@@ -13,13 +13,13 @@ body{
 font-size: 35px;
 font-weight: 800;
 line-height: 35px;
+
 }
 .primary-description{
   color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-padding:20px 0;
-line-height: 22px;
+  font-size: 18px;
+  padding:20px 0;
+  line-height: 22px;
 }
 
 /* Header Section Styles
@@ -35,10 +35,11 @@ line-height: 22px;
   padding: 20px 140px;
   justify-content: space-between;
   align-items:center;
-  background: rgba(71, 125, 17, 0.15);
+  background: #111010;;
+  color:rgb(238, 231, 231);
 }
 .shop-name{
-  color: #181818;
+  
 font-size: 2.8125rem;
 font-weight: 800;
 }
@@ -55,7 +56,7 @@ nav ul li{
 li a{
   text-decoration: none;
   font-size: 1.2rem;
-  color:rgb(36, 31, 31);
+  color:rgb(238, 231, 231);
   /* padding:5px 8px;
   border-radius: 5px; */
 }
@@ -135,7 +136,27 @@ text-align: justify;
 .offer-img{
   width:20vw;
 }
-
+/* Product Section
+======================== */
+.product-container{
+  width:100vw;
+  margin:128px 11vw;
+}
+.product-title{
+  max-width: 34%;
+  margin:0 auto;
+}
+.product-cards{
+  display:flex;
+  gap:24px;
+}
+.product-img{
+  width:17vw;
+ 
+}
+.product-img:hover{
+  border:2px solid rgb(57, 119, 233);
+}
 /* Footer Section
 ==================== */
 .footer{
@@ -143,7 +164,7 @@ text-align: justify;
   background:#111010;
   color:rgba(255, 255, 255,90%);
   text-align: center;
-  padding:200px 30vw;
+  padding:150px 30vw;
 }
 .footer-title{
 font-size: 45px;
