@@ -73,7 +73,7 @@ li a:hover{
   align-items: center;
   height:100vh;
   width:100vw;
-  padding:50px 140px 0;
+  padding:10vh 140px 0;
 }
 .hero-img{
  height:90vh;
@@ -111,7 +111,7 @@ text-align: justify;
 ==================== */
 /* Flash Sale Section 
 -----------------------*/
-.flashSale-container{
+.offer-container{
   width:100vw;
   background-color: rgba(71, 125, 17, 0.15);
   display:flex;
@@ -120,11 +120,11 @@ text-align: justify;
  padding: 100px 18% 100px 15%;
 }
 
-.flashSale-contents{
+.offer-contents{
   width:40vw;
   text-align: center;
 }
-.flashSale-btn{
+.offer-btn{
   background: #A60027;
   color:white;
   font-size: 20px;
@@ -132,6 +132,29 @@ text-align: justify;
   border-radius: 5px;
   border:none;
 }
-.flashSale-img{
+.offer-img{
   width:20vw;
+}
+
+/* Footer Section
+==================== */
+.footer{
+  width:100vw;
+  background:#111010;
+  color:rgba(255, 255, 255,90%);
+  text-align: center;
+  padding:200px 30vw;
+}
+.footer-title{
+font-size: 45px;
+font-weight: 700;
+}
+.footer-description{
+font-size: 18px;
+line-height: 30px;
+padding:24px 0;
+}
+#copyright{
+  color: rgba(255, 255, 255, 0.30);
+  font-size: 16px;
 }
