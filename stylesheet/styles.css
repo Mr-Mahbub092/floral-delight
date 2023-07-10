@@ -6,7 +6,21 @@
 body{
   font-family: 'Heebo', sans-serif;
 }
-
+/* Common Shared Styles
+========================= */
+.primary-title{
+  color: #272727;
+font-size: 35px;
+font-weight: 800;
+line-height: 35px;
+}
+.primary-description{
+  color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+padding:20px 0;
+line-height: 22px;
+}
 
 /* Header Section Styles
 ========================== */
@@ -50,7 +64,8 @@ li a:hover{
   color: #df617e;
   text-decoration: underline;
 }
-/* Banner Section */
+/* Banner Section
+--------------------- */
 .hero{
   display: flex;
   flex-direction: row-reverse;
@@ -92,5 +107,31 @@ text-align: justify;
   margin-top: 28px;
 }
 
+/* Main Section
+==================== */
+/* Flash Sale Section 
+-----------------------*/
+.flashSale-container{
+  width:100vw;
+  background-color: rgba(71, 125, 17, 0.15);
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+ padding: 100px 18% 100px 15%;
+}
 
-
+.flashSale-contents{
+  width:40vw;
+  text-align: center;
+}
+.flashSale-btn{
+  background: #A60027;
+  color:white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border:none;
+}
+.flashSale-img{
+  width:20vw;
+}
